@@ -1,0 +1,24 @@
+.footer {
+  // margin-top: 40px;
+  padding: 10px;
+  //   align-items: center;
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__icon {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  &__git {
+    &:hover {
+      fill: green;
+    }
+  }
+  &__telegramm {
+    &:hover {
+      fill: #0088cc;
+    }
+  }
+}

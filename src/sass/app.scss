@@ -1,0 +1,44 @@
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+#root {
+  padding: 0 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+ul > li {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1030px;
+  padding: 10px 30px 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
