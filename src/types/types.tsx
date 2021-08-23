@@ -3,7 +3,7 @@ export interface IContext {
 }
 
 export interface ITodoIcon {
-    reference: any;
+    id: number;
     checked: boolean;
     important?: boolean;
     favorite?: boolean;
